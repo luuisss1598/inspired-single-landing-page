@@ -1,0 +1,246 @@
+/* pre-styling the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    /* margin: 15px 15px 0 15px; */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* typography for header*/
+
+header a {
+    font-size: 16px;
+}
+
+/* typography for main content */
+
+    /* left-side container */
+    section .left-side-container h1 {
+        font-size: 60px;
+    }
+
+    section .left-side-container h1 span {
+        display: block;
+    }
+
+    section .left-side-container p {
+        font-size: 14px;
+    }
+
+    section .left-side-container ul {
+        font-size: 24px;
+        font-weight: 600;
+        list-style: none;
+    }
+
+    main ul {
+        list-style: none;
+    }
+
+    /* right-side container */
+
+    section .right-side-container  div h3{
+        font-weight: 580;
+    }
+
+    section .right-side-container div p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    section .right-side-container div h4 {
+        font-weight: 450;
+    }
+
+    section .right-side-container div ul {
+        font-weight: 600;
+    }
+
+    section .right-side-container div span {
+        font-weight: 400;
+        display: block;
+    }
+
+/* typography for footer */
+
+footer h1{
+    font-weight: 500;
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+/* layout for header */
+header {
+    padding-bottom: 15px;
+    border-bottom: #000 1px solid;
+    padding-top: 30px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a, nav h3 {
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.info:hover {
+    color: #adb5bd;
+}
+
+.page-shop,
+.page-contact,
+.page-cart,
+.page-search {
+    margin-right: 20px;
+    color: #000;
+}
+
+nav img {
+    width: 20px;
+    height: 20px;
+}
+
+nav .page-title {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* layout for main-content */
+main section {
+    display: flex;
+    justify-content: space-between;
+    /* border: lightskyblue 2px solid; */
+}
+
+    /* layout for left-side container */
+
+    .left-side-container {
+        background-color: #fff;
+        padding: 0 20px;
+        border-right: #000 1px solid;
+        border-bottom: #000 1px solid;
+    }
+
+    .section-container .left-side-container h1 {
+        margin-top: 30px;
+    }
+
+    .section-container .left-side-container p {
+        margin-top: 15px;
+    }
+
+    .section-container .left-side-container ul {
+        margin-top: 150px;
+        margin-bottom: 45px;
+    }
+
+    .section-container .left-side-container ul li {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-bottom: #000 1px solid;
+    }
+
+    .section-container .left-side-container .arrows {
+        margin-left: 96%;
+    }
+
+    .section-container .left-side-container .arrows:hover {
+        color: #adb5bd;
+    }
+
+
+    /* layout for right-side container */
+    .section-container .right-side-container {
+        padding: 0 20px;
+    }
+
+    .section-container .right-side-container img {
+        margin-top: 20px;
+    }
+
+    .section-container .right-side-container .right-side-flexbox {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-side-container {
+        /* border: lightgreen 2px solid; */
+        background-color: #fff;
+        border-bottom: #000 1px solid;
+    }
+
+    .right-side-container .right-side-flexbox h3 {
+        margin: 15px 0;
+    }
+
+    .right-side-container .right-side-flexbox p {
+        margin-bottom: 30px;
+    }
+
+    .right-side-container .right-side-flexbox h3,
+    .right-side-container .right-side-flexbox p {
+        width: 300px;
+    }
+
+    .right-side-container .right-side-flexbox h4 {
+        width: 120px;
+        margin-top: 50px;
+        border-bottom: #000 2px solid;
+        text-align: center;
+    }
+
+    .list-small-text {
+        text-align: right;
+        margin-top: 15px;
+        border-bottom: #000 1px solid;
+    }
+
+    .italic-list {
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+
+    #btn-cart:hover {
+        color: #adb5bd;
+        border-bottom: #adb5bd 1px solid;
+    }
+
+/* layout for footer */
+
+footer {
+    text-align: center;
+    padding: 35px;
+}
+
+footer h1 {
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+    width: 200px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-weight: bold;
+}
